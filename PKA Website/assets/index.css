@@ -1,0 +1,235 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sch-logo {
+    width: 100px
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0066cc; /* Dark blue */
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f8ff; /* Lighter shade of blue on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e0f7ff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Values Section */
+.values {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f0f8ff;
+}
+
+.value-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #e6f2ff;
+    text-align: center;
+    border-radius: 8px;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: transform 0.3s ease;
+}
+
+.value-box:hover {
+    transform: scale(1.05);
+}
+
+/* Slideshow Section */
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slide {
+    display: none;
+    text-align: center;
+    padding: 40px;
+    background: #e0f7ff;
+    font-size: 1.2em;
+    color: #333;
+    border-radius: 8px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px;
+    margin-top: -22px;
+    background: #e0f7ff;
+    border-radius: 50%;
+}
+
+.next {
+    right: 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e0f7ff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #0066cc;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin: 10px auto;
+    font-style: italic;
+    color: #333;
+    max-width: 600px;
+    font-size: 1.1em;
+}
+
+/* Gallery Section */
+.gallery h2 {
+    text-align: center;
+}
+
+.gallery img {
+    width: 240px;
+    margin: 3px;
+    
+}
+
+
+form {
+   padding: 10px 20px;
+}
+
+#textarea {
+   width: 200px;
+   height: 200px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #0066cc;
+    color: white;
+    margin-left: 100px;
+}
+
+.submit-btn:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+/* Scroll-to-Top Button */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-info p {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 1.1em;
+}
+
+.social-icons a:hover {
+    color: #f0f8ff;
+}
